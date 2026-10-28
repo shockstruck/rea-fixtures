@@ -9,9 +9,10 @@ contains the source and script used to rebuild its fixture.
   Rebuild with `cd js && npm ci && ./build.sh`.
 - `electron/app.asar`: a small Electron archive with a main process, preload,
   package metadata and one IPC handler. Rebuild with `cd electron && npm ci && ./build.sh`.
-- `managed/Fixture.dll`: a minimal .NET class library. Rebuild with
-  `cd managed && ./build.sh` after installing the pinned .NET SDK version
-  8.0.408 using Microsoft's dotnet-install script.
+- `managed/Fixture.dll`, `managed/Fixture.nupkg` and `managed/Fixture.zip`: a
+  minimal .NET class library with reproducible NuGet and ZIP archives. Rebuild
+  all three with `cd managed && ./build.sh` after installing the pinned .NET SDK
+  version 8.0.408 using Microsoft's dotnet-install script.
 
 - `android/minimal.apk`: a minimal APK built from its committed manifest and
   Java activity. Rebuild after installing Temurin JDK 21 and Android SDK
