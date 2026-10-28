@@ -3,5 +3,6 @@
     <TargetFramework>net8.0</TargetFramework>
     <AssemblyName>Fixture</AssemblyName>
     <RootNamespace>SyntheticFixture</RootNamespace>
+    <PathMap>$(MSBuildProjectDirectory)=/src</PathMap>
   </PropertyGroup>
 </Project>
