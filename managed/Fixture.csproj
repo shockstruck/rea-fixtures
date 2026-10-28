@@ -4,5 +4,6 @@
     <AssemblyName>Fixture</AssemblyName>
     <RootNamespace>SyntheticFixture</RootNamespace>
     <PathMap>$(MSBuildProjectDirectory)=/src</PathMap>
+    <EnableSourceControlManagerQueries>false</EnableSourceControlManagerQueries>
   </PropertyGroup>
 </Project>
