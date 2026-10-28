@@ -1,4 +1,7 @@
 **/node_modules/
+/.toolchains/
+android/build/
+android/.generated/
 managed/.dotnet/
 managed/out/
 managed/obj/
